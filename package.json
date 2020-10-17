@@ -1,0 +1,32 @@
+{
+  "name": "assignment2node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Habert",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-logger": "0.0.3",
+    "express-session": "^1.17.1",
+    "flatted": "^3.1.0",
+    "gcp-metadata": "^4.2.0",
+    "google-auth-library": "^6.1.1",
+    "googleapis": "^61.0.0",
+    "html": "^1.0.0",
+    "jade": "^1.11.0",
+    "mysql": "^2.18.1",
+    "oauth": "^0.9.15",
+    "passport": "^0.4.1",
+    "passport-github": "^1.1.0",
+    "pug": "^3.0.0",
+    "underscore": "^1.11.0",
+    "util": "^0.12.3",
+    "util-inspect": "^0.1.8"
+  }
+}

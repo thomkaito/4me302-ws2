@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login Form</title>
+		<style>
+		.login-form {
+			width: 300px;
+			margin: 0 auto;
+			font-family: Tahoma, Geneva, sans-serif;
+		}
+		.login-form h1 {
+			text-align: center;
+			color: #4d4d4d;
+			font-size: 24px;
+			padding: 20px 0 20px 0;
+		}
+		.login-form input[type="password"],
+		.login-form input[type="text"] {
+			width: 100%;
+			padding: 15px;
+			border: 1px solid #dddddd;
+			margin-bottom: 15px;
+			box-sizing:border-box;
+		}
+		.login-form input[type="submit"] {
+			width: 100%;
+			padding: 15px;
+			background-color: #535b63;
+			border: 0;
+			box-sizing: border-box;
+			cursor: pointer;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		</style>
+
+	</head>
+	<body>
+		<div class="login-form">
+			<form action="authTwitter" method="POST">
+				<input type="image" src="https://apps.bowdoin.edu/media-trades/lib/twitter-login.png" border="0" alt="submit" height="50" width="250" />
+			</form>
+			<form action="https://github.com/login/oauth/authorize?client_id=682c7e487580cb697515" method="POST">
+				<input type="image" src="https://user-images.githubusercontent.com/9599/61177475-2ddce800-a58b-11e9-9bf6-aa4794a99f2a.png" border="0" alt="submit" height="55" width="275" />
+			</form>
+		</div>
+	</body>
+</html>
